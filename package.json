@@ -1,0 +1,27 @@
+{
+  "name": "dsh-writing-preset",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "文学创作模式：面向小说、散文、剧本与诗歌的写作搭档",
+  "main": "cordis.patch.yml",
+  "files": [
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "agent-preset",
+    "writing",
+    "文学创作"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT"
+}
